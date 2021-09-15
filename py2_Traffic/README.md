@@ -69,9 +69,9 @@ For this practical assignment we want you to create a CSV `traffic_april_1920.cs
 
 **vehicles_2020** are the total number of cars that passed this sensor for the predefined period. These figures can be found in `2020.xlsx` on the `intensiteit` sheet in the different cells that provide `Totaal` under the column `intensiteit`. For sensor `RWS01_MONIBAS_0021hrl0459ra` this is cell B30 fo sensor `RWS01_MONIBAS_0021hrl0469ra` this is `B67` for `RWS01_MONIBAS_0100vwc0175ra` this is `B104` (do you see the pattern?).
 
-It is now up to you to do this. Go through the documentation of [pandas] and in particular have a look at this [tutorial](https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/02_read_write.html#min-tut-02-read-write) . In order to export the data as a shapefile, have a look at the previous assignment and geopandas.
+It is now up to you to do this. Go through the documentation of [pandas] and in particular have a look at this [tutorial](https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/02_read_write.html#min-tut-02-read-write).
 
-To help you a bit, we have prepared [py2_traffic.py](https://github.com/SPINLab/GI_Minor_2020/blob/master/py2_Traffic/py2_traffic.py) in which we included some tips on how to create your script. 
+To help you a bit, we have prepared 1_traffic.py in which we included some tips on how to create your script. 
 
 ## Air Quality data
 
