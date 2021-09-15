@@ -5,7 +5,7 @@
 ###############################################################################################
 
 # For this excercise we are going look into the air measurements for a specific station for a specific chemical compound.
-# Fot this we will be using the following modules. The first one you are already familiar with from the first exercise. 
+# For this we will be using the following modules. The first one you are already familiar with from the first exercise. 
 # The other´s will be explained once you are going to use them for your code
 import requests
 import datetime
@@ -16,14 +16,12 @@ import matplotlib.pyplot as plt
 # Write this line of code below:
 
 
-
 # Step 2: Choose a chemical compound and request the data (no need to specify a page yet, you will by default recieve the most recent page)
 # Create a dictionary of the response in the same way you did in the previous exercise.
 # hint: you need to specify the station number in the URL
 # hint: you need to specify the chemical compound in the parameters of the request (https://requests.readthedocs.io/en/master/user/quickstart/?highlight=parameters#passing-parameters-in-urls)
 # hint: look in the API documentation what the parameter to define a chemical compound is called (https://api-docs.luchtmeetnet.nl/#intro)
 # Write your lines of code below:
-    
 
 
 # Step 3: Now that we have the specific component we are going to 
@@ -33,7 +31,6 @@ import matplotlib.pyplot as plt
 # hint: you will need to loop over the retrieved data
 # hint: create empty lists and append the data to the lists in the loop (check your training material if you forgot how)
 # Write your lines of code below:
-
 
 
 # Step 4: For this step we are going to prepare the timestamp data in order to plot it as a graph. 
@@ -49,13 +46,10 @@ import matplotlib.pyplot as plt
 # Write your lines of code below:
 
 
-
 # Step 5: Now we want you to plot the data in a graph. For this we want you to use the matplotlib module (which we imported above). 
 # We want you to plot timestamps on the X-axis and values for the chemical components on the Y-axis. 
 # Please look at https://pythonspot.com/plot-time-with-matplotlib/ on how to do so.
 # Write your lines of code below:
-
-
 
 
 # Step 6: In the plot you probably notices we can see it only spans a pretty limited timespan. 
@@ -68,9 +62,7 @@ import matplotlib.pyplot as plt
 # write your lines of code below:
 
 
-
 # Step 7: Now plot it (https://pythonspot.com/plot-time-with-matplotlib/)
-
 
 
 # Step 8: it might be that the graph looks wrong in some places now
@@ -89,10 +81,8 @@ import matplotlib.pyplot as plt
 # write the sort function for timestaps in the line below:
 
 
-
 # Step 9: pandas DataFrames also come with easy function to make a plot, use it to create a plot of the sorted data
 # https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.html
-
 
 
 # Step 10: In order to use the data in different software package (like GIS software, SPSS, excel or MS Access) it might in some cases be useful to save your dataframe to a csv.
@@ -100,4 +90,3 @@ import matplotlib.pyplot as plt
 # To do so we have prepared the following line. 
 # REMOVE THE HASHTAG IN THE NEXT LINE
 #df.to_csv('timeseries.csv')
-
