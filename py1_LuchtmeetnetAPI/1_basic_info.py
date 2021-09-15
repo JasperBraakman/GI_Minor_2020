@@ -11,19 +11,20 @@ import requests
 
 
 # In order to understand how the luchtmeetnet API works, we want you to go through the following steps. 
-# Step 1: First we need to find the URL with which we can access the API and get to the different data nodes. Go to https://api-docs.luchtmeetnet.nl/#intro and search for the right URL.
+# Step 1: First we need to find the URL with which we can access the API and get to the different stations. Go to https://api-docs.luchtmeetnet.nl/#intro and search for the right URL.
+# Hint: the base url reverded to in the documentations is 'https://api.luchtmeetnet.nl'
 # Add this URL to a get request that you store as a response object. Put this request in the line below:
 
 
 # Step 2: In order to access the various data nodes we now want you to create a python dictionary from the response object by reading the API output. You probably noticed the API generates json output so make sure to read json. 
+# Hint: see read.me file
 # Write your line(s) of code below:
-
 
 # Now that the response from the API is added to a dictionary you can explore the response using the variable explorer of Spyder or by printing it out to console.
 # Step 3: In this step we want you to save the first location to a variable and print it out to the console.
 
 
-# Step 4: Now go through th dictionary and select a station that is within Amsterdam (or any other city you prefer).
+# Step 4: Now go through the dictionary and select a station that is within Amsterdam (or any other city you prefer).
 # Save location name and station number to variables and print them out to console.
 # Write your line(s) of code below:
 
