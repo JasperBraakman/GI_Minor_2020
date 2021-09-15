@@ -90,11 +90,11 @@ Once you explored the API open [1_basic_info.py](https://github.com/SPINLab/GI_M
 Now that you understand how to get basic information from the Luchtmeetnet API we are going to obtain data from a specific time period. Have another look at the [Luchtmeetnet API documentation](https://api-docs.luchtmeetnet.nl/#intro) and try to determine which url we could use to request measurement data of a single station? Which parameters would we have to set? Now choose a location (for example the one in Amsterdam of the previous exercise) and retrieve the location number. Next, open [2_timeseries.py](https://github.com/SPINLab/GI_Minor_2020/blob/master/py1_LuchtmeetnetAPI/2_timeseries.py) and create a python script which retrieves and plots measurement data of a station.
 
 ## Practical Assignment 
-With the two exercises completed you are now ready for the practical assignment. to extract the data from the luchtmeetnet API which can be used as input to reproduce the map for the average level of particulate matter of 2.5 μm and 10 μm or less per m3 in 2017. Note, that we do not ask you to interpolate the data. We just want you to extract the different point datasets. 
+With the two exercises completed you are now ready for the practical assignment. to extract the data from the luchtmeetnet API which can be used as input to reproduce the map for the average level of particulate matter of 2.5 μm and 10 μm or less per m3 of a week in 2017. Note, that we do not ask you to interpolate the data. We just want you to extract the different point datasets. 
 
 Again have a look at the [Luchtmeetnet API documentation](https://api-docs.luchtmeetnet.nl/#intro) and determine which data we need to request to make a map of all stations colored by the measurement of a particulate matter of 2.5 μm and 10 μm or less per m3. Now open Practical_assignment_1.py and create a python script which retrieves the average measurement data of PM 2.5 and PM 10 for 2017 for all of the Netherlands.
 
-The script you have to produce must result in a shapefile `measurements.shp`containing the average PM 2.5 and PM10 measurements for 2017.
+The script you have to produce must result in a shapefile `measurements.shp`containing the average PM 2.5 and PM10 measurements for a week in 2017.
 
 Once you finished the script go to https://www.atlasleefomgeving.nl/kaarten and download the PM 10 and PM 2.5 map data used by Andrée. Add the shape files you created and the downloaded data in a GIS (ArcGIS pro or QGIS) and systematically compare the data you retrieved from the luchtmeetnet API. Answer the following: 
    1. Which functionalities in GIS have you used to compare the data point with the modelled raster layer?
@@ -113,31 +113,3 @@ Create a .zip file containing the following files
 - `py1_air_quality_answers.txt`
 
 Submit it to Canvas **before the 25th of September 23:59**. 
-
-## Practical Assignment Light
-
-With the two exercises completed you are now ready for the practical assignment. For this light version of the practical assigment we want you to create a list with coordinates and names of all stations and save it as .csv file.
-
-Once the file is created you will need to add it to your GIS and project the coordinates stored in the csv file (for ArcGIS pro look here https://pro.arcgis.com/en/pro-app/get-started/create-points-from-a-table.htm for QGIS use the Add Delimited text function https://youtu.be/ySMcYQLln3Q ). Next go to https://www.atlasleefomgeving.nl/kaarten and download the PM 10 and PM 2.5 map data used by Andrée. Combine the locations with the measuring stations and the modelled data that has been used by Bo in one GIS view.
-
-Now imagine you would have average measurements of PM 2.5 and PM 10 for all stations in 2017 as attributive information to the locations of the stations. Answer the following questions:
-
-   1. Which functionalities in GIS would you use to compare the data points with the modelled raster layer?
-
-   2. Do you think that the measurements from the Luchtmeetnet themselves would be sufficient as input for the generatated maps layers? 
-    
-   3. Imagine that Andrée would have used the data from the Luchtmeetnet directly in the way you did. How do you think that would have changed his analysis?
-    
-   4. Now look back at the fit for purpose framework you developed for the first practical assignment. How fit would your generated point data be for the purpose of Andrée´s study? 
-
-Save your answers to a file named `py1_air_quality_answers_light.txt`.
-
-## Submit the following
-
-Create a .zip file containing the following files 
-- `Practical_assignment_1_light.py` 
-- `stations.csv`
-- `py1_air_quality_answers_light.txt`
-
-Submit it to Canvas **before the 25th of September 23:59**. 
-
