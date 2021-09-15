@@ -51,7 +51,7 @@ Once you downloaded the 2019 sheet go through the proces a second time (you migh
 
 When you open the excel sheet you will notice that the data is structured, but not in a way in which it can easily be intgrated into your GIS. Restructuring the data can be done manually, but is error sensitive and not easily reproducable. Since you are trained as researchers we want you to not modify the downloaded data, but instead generate a new datafile without touching the orginal data. Whenever publishing an academic report you can accompany it with your data processing scripts (which most researchers currently publish on platforms like GIThub, the platform where this practical assignment is published on as well). 
 
-For this practical assignment we want you to create a shapefile `traffic_april_1920.shp`file with the following columns (please note that the values in the table are made up). 
+For this practical assignment we want you to create a CSV `traffic_april_1920.csv`file with the following columns (please note that the values in the table are made up). 
 
 | ID | X_coord | Y_coord | vehicles_2019 | vehicles_2020 |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
