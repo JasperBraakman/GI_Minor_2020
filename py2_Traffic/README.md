@@ -101,7 +101,7 @@ Create a shapefile named `air_q_april_1920.shp` containing the following table s
 
 
 ## Comparing the Air Quality and Traffic
-Now that you created two shape files we want you to compare April 2019 with April 2020. Although various statistical methods exist and obviously interpolation and distance decay functionalities should be included to analyse this in a more robust academic manner, for this assignment we want you to just explore the data and compare the figures visually. Answer the following questions:
+Now that you created two CSV files we want you to compare April 2019 with April 2020. Although various statistical methods exist and obviously interpolation and distance decay functionalities should be included to analyse this in a more robust academic manner, for this assignment we want you to just explore the data and compare the figures visually in GIS. Answer the following questions:
 
 1. What do you see when you compare the air quality of April 2019 with April 2020.
 2. How would you interpret these results in relation to the amount of traffic? What conclusions would you draw from your explorative analysis?
@@ -114,10 +114,10 @@ Save your answers in a file named `py2_answers.txt`
 Create a .zip file containing the following files 
 
 - `py2_traffic.py` which contains the script with which you modify the traffic data into a useable shapefile.
-- the generated shapefile `traffic_april_1920.shp`
+- the generated shapefile `traffic_april_1920.csv`
 - `py2_air_april_1920.py` Note that we have not provided an auxiliary file. 
 Please reuse the file you submitted for the previous assignment and change it´s configuration.
-- the generated shapefile `air_q_april_1920.shp`
+- the generated shapefile `air_q_april_1920.csv`
 - `py2_answers.txt`
 
 Submit this zip to Canvas **before the 20th of September 23:59**. 
