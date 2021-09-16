@@ -2,46 +2,41 @@
 
 Dear student,
 
-Welcome to the python part of the [Geo Information Minor](http://www.nationalegiminor.nl). In this course we'll take a small dive into the Python programming language. We'll cover some **basic programming concepts** and briefly delve into **data acquisition** by using API's.
+Welcome to the python part of the Geodata course on [Geo Information Minor](http://www.nationalegiminor.nl). In this course we'll take a small dive into the Python programming language. We'll cover some **basic programming concepts** and briefly delve into **data acquisition** by using API's.
 
 By the way: Did you know that the python programming language was developed in Amsterdam? Guido van Rossum, a researcher from the **Centrum voor Wiskunde en Informatica**, developed it in the 1990s. [https://en.wikipedia.org/wiki/Python_(programming_language)](https://en.wikipedia.org/wiki/Python_(programming_language))
 
-From previous iterations we've distilled that learning the basics isn't the challenge (anymore) due to the abundance of open online courses and interactive online tutorials. **Rather, the question is: how do I craft useful scripts that solve real-world problems?**
+From previous iterations we've distilled that learning the basics isn't the challenge (anymore) due to the abundance of open online courses and interactive online tutorials. **Rather, the question is: how to craft useful scripts that solve real-world problems?**
 
-Hence, we'll show you how to **apply your knowledge** to the challenges you'd like to **address day-to-day activities**. Along the way, we'll show you how to solve common Python-related problems, give you tips-and-tricks about finding help and expanding Python's capabilities with external modules. We expect you'll use this knowledge at a later stage of our course when you will have to work on the case-study. 
+Hence, we'll try to bridge the gap on how to **apply your knowledge** to challenges in **day-to-day activities** like data acquisition. Along the way, we'll show you how to solve common Python-related problems, give you tips-and-tricks about finding help and expanding Python's capabilities with external modules (the assignments provide links). We expect you'll use this knowledge at a later stage of our course when you will have to work on the case-study. 
 
-This course is hands-on. We therefore do not have slides or extensive lecture notes. We will help you to make two assignments, however before that you will have to do some homework in order to get the basics of python. We expect you to have finished these tutorials before the 14th of September. 
+There are no slides or lecture notes. We will help you to complete two assignments, however before that you will have to do some homework in order to get the basics of python. We expect you to have finished these tutorials before the 20th of September. 
 
 ## Methodology and programme
 
-This course consists of a self-learning part and two hands-on workshops. Each workshop lasts a full day. During these days (i.e. 14/09 and 15/09) we will be available from 11:00 - 12:45 and from 13:30 - 17:00 via zoom. We will split our group in various break out rooms, where you can ask us (Devi & Maurice) for help. But first discuss issues you have with your fellow students. 
+This course consists of a self-learning part and two hands-on workshops. Each workshop is half day. During these days we will be available from 13:30 - 17:00. 
 
 The program is as follows:
 
--   self-study (to be finished before th 14th of September)
+-   self-study (pre-workshops)
 
--   [practical assignment py1](https://github.com/SPINLab/GI_Minor_2020/tree/master/py1_LuchtmeetnetAPI) 14/09/2020 - using the Luchtmeetnet API, with the requests module
--   [practical assignment py2](https://github.com/SPINLab/GI_Minor_2020/tree/master/py2_Traffic) 15/09/2020 - Combining air quality data with traffic data
+-   [practical assignment py1](https://github.com/SPINLab/GI_Minor_2020/tree/master/py1_LuchtmeetnetAPI) 20/09/2020 - using the Luchtmeetnet API, with the requests module
+-   [practical assignment py2](https://github.com/SPINLab/GI_Minor_2020/tree/master/py2_Traffic) 21/09/2020 - Combining air quality data with traffic data
 
 Each practical assignment is accompanied by a short manual and some Python scripts. The first practical assignment includes two exercises as well. 
 
 ## Self-study: 
 
-To maximize the time available for the hands-on lectures and exercises we kindly ask you to complete a number of Python lessons in advance **(BEFORE the 14th of September)**.
+To maximize the time available for the hands-on lectures and exercises, it is crucial that you learn the basics in advance and on your own. If you do not know python, you have to complete an introduction to Python course in advance.
 
-There are multiple online tutorials to learn the basics of python. We give you a couple of options from which you can decide what works best for you. 
+There are multiple online tutorials to learn the basics of python. We recommend:
 
-**Option 1**
-[https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/default.asp) is an online learning platform that offers programming courses in a wide range of languages. You learn to program by typing and executing Python commands directly in your browser.
+Udacity intro to python course: https://www.udacity.com/course/introduction-to-python--ud1110
+It should take around 10 to 12 hours to complete
 
-Complete all exercises listed under **Python Tutorial** and **File Handling** before coming to class on the 14th of September.
+After udacity, you should study the file handling section of the W3schools: https://www.w3schools.com/python/python_file_handling.asp
+This is not really a course, but explanations/code on how file handling (reading and writing to files works). you can and should text the examples with your own files in your computer.
 
-**Option 2**
-A more text book like format with a more in depth explanation can be accessed here:
-[https://greenteapress.com/wp/think-python-2e/](https://greenteapress.com/wp/think-python-2e/)
-
-**Option 3**
-A really good one is available at Codeacademy: https://www.codecademy.com/learn/learn-python-3 However, be aware that after a trial period you will need to pay for a subscription (it is definately worth it).
 
 ## Practical assignment
 
@@ -121,15 +116,17 @@ Geopandas should work after this.
 
 
 ## BONUS Practical Assignment
-We have a bonus practical assignment which we used in previous years. It might be interesting for the case study or research assignment which you will be making lateron in our minor. This assignments learn you how to extract location information of tweets from twitter.
+We have a bonus practical assignment which we used in previous years. It might be interesting for the case study or research assignment which you will be making lateron in our minor. In this assignments you explore how to extract location information of tweets from twitter.
 -   [practical assignment twitter](https://github.com/SPINLab/GI_Minor_2020/tree/master/py3_TwitterAPI)
 
 
 ## The Team - Vrije Universiteit Amsterdam
 -   Maurice de Kleijn
--	Devi Brands
--	Dewi Westra
+-   Eduardo Dias
+-   Jasper Braakman
 
 ## Previous contributors
+-	Devi Brands
+-	Dewi Westra
 -   Simeon Nedkov
 -   Chris Lucas
