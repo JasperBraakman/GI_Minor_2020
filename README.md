@@ -20,8 +20,8 @@ The program is as follows:
 
 -   self-study (pre-workshops)
 
--   [practical assignment py1](https://github.com/SPINLab/GI_Minor_2020/tree/master/py1_LuchtmeetnetAPI) 20/09/2021 - using the Luchtmeetnet API, with the requests module
--   [practical assignment py2](https://github.com/SPINLab/GI_Minor_2020/tree/master/py2_Traffic) 21/09/2021 - Combining air quality data with traffic data
+-   Practical assignment PY1 (link: https://github.com/JasperBraakman/GI_Minor_2020/tree/master/py1_LuchtmeetnetAPI) on 20/09/2021 - using the Luchtmeetnet API, with the requests module
+-   Practical assignment PY2] (link: https://github.com/JasperBraakman/GI_Minor_2020/tree/master/py2_Traffic) on 21/09/2021 - Combining air quality data with traffic data
 
 Each practical assignment is accompanied by a short manual and some Python scripts. The first practical assignment includes two exercises as well. 
 
