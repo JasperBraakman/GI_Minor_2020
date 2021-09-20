@@ -20,10 +20,19 @@ The program is as follows:
 
 -   self-study (pre-workshops)
 
--   Practical assignment PY1 (link: https://github.com/JasperBraakman/GI_Minor_2020/tree/master/py1_LuchtmeetnetAPI) on 20/09/2021 - using the Luchtmeetnet API, with the requests module
--   Practical assignment PY2] (link: https://github.com/JasperBraakman/GI_Minor_2020/tree/master/py2_Traffic) on 21/09/2021 - Combining air quality data with traffic data
+-   Practical assignment PY1 on 20/09/2021
+link: https://github.com/JasperBraakman/GI_Minor_2020/tree/master/py1_LuchtmeetnetAPI
+Goal: harvesting data from the air quality API (Luchtmeetnet) with the requests module
+
+
+Practical assignment PY2 on 21/09/2021
+link: https://github.com/JasperBraakman/GI_Minor_2020/tree/master/py2_Traffic
+Goal: Combining air quality data with traffic data.
+
 
 Each practical assignment is accompanied by a short manual and some Python scripts. The first practical assignment includes two exercises as well. 
+
+
 
 ## Self-study: 
 
