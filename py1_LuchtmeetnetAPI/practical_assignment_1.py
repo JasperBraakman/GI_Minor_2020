@@ -59,8 +59,8 @@ import matplotlib.pyplot as plt
 # Now save the two lists to a column in the DataFrame
 # Write your code below:
 
-# Step 7: Finally save to a CSV file:
 
+# Step 7: Finally save to a CSV file:
 
 # Now save this script and go back to https://github.com/Jasper_Braakman/GI_Minor_2020/tree/master/py1_LuchtmeetnetAPI 
 # to answer a couple of questions and see what exactly need to be submitted.
