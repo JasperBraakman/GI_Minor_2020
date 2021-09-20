@@ -12,9 +12,7 @@
 import requests
 import datetime
 import pandas as pd
-import geopandas as gpd
 import matplotlib.pyplot as plt
-from shapely.geometry import Point
 
 
 # STEP 1: As first step we want you to start a pandas DataFrame
@@ -46,49 +44,23 @@ from shapely.geometry import Point
 # Loop over all station numbers found previously and use the url to retrieve information of each station.
 # Look in the data of a station where to find the coordinates.
 # Save each station's coordinates.
-# note: the coordinates returned by the API are in the wrong order
-# You can reverse a list as such:  some_list[::-1]
 # Write your code below:
 
 # Now save the coordinate list to a column in the DataFrame
 # Write your code below:
 
 
-# STEP 6:  We will now create Point geometries from the coordinate data, allowing it to be actually be projected. 
-# For this we will be using geopandas
-# http://geopandas.org/gallery/create_geopandas_from_pandas.html#sphx-glr-gallery-create-geopandas-from-pandas-py
-# To help you a bit we have prepared part of the code you need. Finish the line of code and apply point geometry.
-# REMOVE THE HASHTAG IN THE NEXT LINE
-#df['geom'] = 
-
-
-# Step 7: To convert this regular DataFrame to a GeoDataFrame we need tell GeoPandas in which column the geometry is located
-# http://geopandas.org/gallery/create_geopandas_from_pandas.html#sphx-glr-gallery-create-geopandas-from-pandas-py
-# Now finish the following line of code
-# REMOVE THE HASHTAG IN THE NEXT LINE
-#gdf = 
-
-
-# Step 8: To get the the value of particulate matter for 2.5 μm and 10 μm or less per m3 for all stations,
+# Step 6: To get the the value of particulate matter for 2.5 μm and 10 μm or less per m3 for all stations,
 # you will need to loop over all stations like before. Now look in the API documentation how to request the measurements of a station. 
 # From each station save the latest measurement to the created list. If the station has no measurements for your selected compound append a 'float('nan')' to the list.
 # Do this for 2.5 μm per m3 and repeat it for 10 μm per m3.
 # Write your code below:
 
-
-# Step 9: Now look back at the previous exercise and find out how you would get measurements for a specific time period. 
-# Do this for 2.5 μm per m3 and repeat it for 10 μm per m3.
+# Now save the two lists to a column in the DataFrame
 # Write your code below:
 
-
-# Step 10: Now save the list to a column in the GeoDataFrame
-# REMOVE THE HASHTAG IN THE NEXT LINE
-#gdf['value'] = 
+# Step 7: Finally save to a CSV file:
 
 
-# Step 11: Finally save to a shapefile:
-# REMOVE THE HASHTAG IN THE NEXT LINE
-#gdf.to_file('./shp/measurements.shp')
-
-# Now save this script and go back to https://github.com/SPINLab/GI_Minor_2020/tree/master/py1_LuchtmeetnetAPI 
+# Now save this script and go back to https://github.com/Jasper_Braakman/GI_Minor_2020/tree/master/py1_LuchtmeetnetAPI 
 # to answer a couple of questions and see what exactly need to be submitted.
