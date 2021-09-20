@@ -1,7 +1,7 @@
 ###############################################################################################
 # This is Excercise 1 for the practical assignment to learn python for API´s                  #
 # prepared by the Spatial Information Laboratory - Vrije Universiteit Amsterdam               #
-# Simeon Nedkov, Chris Lucas, Maurice de Kleijn, Devi Brands                                  #
+# Simeon Nedkov, Chris Lucas, Maurice de Kleijn, Devi Brands, Jasper Braakman                 #
 ###############################################################################################
 
 # Since we want to be able to get data out of the luchtmeetnet we first we import the request module (which we already did for you) 
@@ -14,6 +14,7 @@ import requests
 # Step 1: First we need to find the URL with which we can access the API and get to the different stations. Go to https://api-docs.luchtmeetnet.nl/#intro and search for the right URL.
 # Hint: the base url reverded to in the documentations is 'https://api.luchtmeetnet.nl'
 # Add this URL to a get request that you store as a response object. Put this request in the line below:
+
 
 
 # Step 2: In order to access the various data nodes we now want you to create a python dictionary from the response object by reading the API output. You probably noticed the API generates json output so make sure to read json. 
