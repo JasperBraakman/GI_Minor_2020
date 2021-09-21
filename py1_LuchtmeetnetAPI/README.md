@@ -91,13 +91,14 @@ Once you explored the API open [1_basic_info.py](https://github.com/JasperBraakm
 Now that you understand how to get basic information from the Luchtmeetnet API we are going to obtain data from a specific time period. Have another look at the [Luchtmeetnet API documentation](https://api-docs.luchtmeetnet.nl/#intro) and try to determine which url we could use to request measurement data of a single station? Which parameters would we have to set? Now choose a location (for example the one in Amsterdam of the previous exercise) and retrieve the location number. Next, open [2_timeseries.py](https://github.com/JasperBraakman/GI_Minor_2020/blob/master/py1_LuchtmeetnetAPI/2_timeseries.py) and create a python script which retrieves and plots measurement data of a station.
 
 ## Practical Assignment 
-With the two exercises completed you are now ready for the practical assignment. to extract the data from the luchtmeetnet API which can be used as input to reproduce the map for the average level of particulate matter of 2.5 μm and 10 μm or less per m3 of a week in 2017. Note, that we do not ask you to interpolate the data. We just want you to extract the different point datasets. 
+With the two exercises completed you are now ready for the practical assignment. To extract the data from the luchtmeetnet API which can be used as input to reproduce the map for the average level of particulate matter of 2.5 μm and 10 μm or less per m3 of a week in 2017. Note, that we do not ask you to interpolate the data. We just want you to extract the different point datasets. 
 
-Again have a look at the [Luchtmeetnet API documentation](https://api-docs.luchtmeetnet.nl/#intro) and determine which data we need to request to make a map of all stations colored by the measurement of a particulate matter of 2.5 μm and 10 μm or less per m3. Now open Practical_assignment_1.py and create a python script which retrieves the average measurement data of PM 2.5 and PM 10 for 2017 for all of the Netherlands.
+Again have a look at the [Luchtmeetnet API documentation](https://api-docs.luchtmeetnet.nl/#intro) and determine which data we need to request to make a map of all stations colored by the measurement of a particulate matter of 2.5 μm and 10 μm or less per m3. Now open Practical_assignment_1.py (https://github.com/JasperBraakman/GI_Minor_2020/blob/master/py1_LuchtmeetnetAPI/practical_assignment_1.py) and create a python script which retrieves the average measurement data of PM 2.5 and PM 10 for 2017 for all of the Netherlands.
 
-The script you have to produce must result in a shapefile `measurements.shp`containing the average PM 2.5 and PM10 measurements for a week in 2017.
+The script you have to produce must result in a CSV (that you can load in Arcgis so you have to have coordinates) containing the average PM 2.5 and PM10 measurements for a week in 2017.
 
-Once you finished the script go to https://www.atlasleefomgeving.nl/kaarten and download the PM 10 and PM 2.5 map data used by Andrée. Add the shape files you created and the downloaded data in a GIS (ArcGIS pro or QGIS) and systematically compare the data you retrieved from the luchtmeetnet API. Answer the following: 
+Once you finished the script go to https://www.atlasleefomgeving.nl/kaarten and download the PM 10 and PM 2.5 map data used by Andrée. Add the CSV file you created and the downloaded data in a GIS (ArcGIS pro or QGIS) and systematically compare the data you retrieved from the luchtmeetnet API. Answer the following:
+
    1. Which functionalities in GIS have you used to compare the data point with the modelled raster layer?
    2. Do the measurements from the Luchtmeetnet correspond with the datalayer PM 10 and PM 2.5 from the atlas van de leefomgeving?
    3. Do you think that the measurements from the Luchtmeetnet are sufficient as input for to generate the maps layers? 
@@ -106,11 +107,9 @@ Once you finished the script go to https://www.atlasleefomgeving.nl/kaarten and 
 
 Save your answers to a file named `py1_air_quality_answers.txt`.
 
-## Submit the following
+## Submit the following in canvas
 
-Create a .zip file containing the following files 
-- `Practical_assignment_1.py` 
-- `measurements.shp` (with all auxiliary files; remember the Kenya practical assignment)
-- `py1_air_quality_answers.txt`
-
-Submit it to Canvas **before the 25th of September 23:59**. 
+ 
+- Your `Practical_assignment_1.py` 
+- the final CSV
+- py1_air_quality_answers.txt
