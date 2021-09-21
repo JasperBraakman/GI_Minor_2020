@@ -52,9 +52,9 @@ This is not really a course, but explanations/code on how file handling (reading
 
 This python course has two mandatory practical assignments. Each assignment contains a short manual and one or more Python scripts.
 
--   [practical assignment luchtmeetnet](https://github.com/JasperBraakman/GI_Minor_2020/tree/master/py1_LuchtmeetnetAPI)
+-   PY1: [practical assignment luchtmeetnet](https://github.com/JasperBraakman/GI_Minor_2020/tree/master/py1_LuchtmeetnetAPI)
 
--   [practical assignment traffic](https://github.com/SPINLab/GI_Minor_2020/tree/master/py2_Traffic)
+-   PY2: [practical assignment traffic](https://github.com/JasperBraakman/GI_Minor_2020/tree/master/py2_Traffic)
 
 For these practical assignments you can download the accompanying files as follows:
 
