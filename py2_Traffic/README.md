@@ -18,7 +18,7 @@ Information about traffic on the Dutch highways is available at the [National Da
 
 They do offer a very useful open data tool with which you can generate an excel sheet with the number of vehicles for a certain period. 
 
-https://dexter.ndwcloud.nu/opendata
+https://dexter.ndw.nu/opendata
 
 This tool is limited to 10 stations per download, so whenever you are interested in a small area this can be very useful. The excelsheet is however not structured in the way that you can easily use it in a GIS. For this practical assignment it is your task to convert the data into usable GIS data. Some steps could have easily been done manually as well, but imagine you would want to include multiple time series in your analysis. Not only would it be very error sensitive to manually convert all data, it would also be very labor intensive.
 
