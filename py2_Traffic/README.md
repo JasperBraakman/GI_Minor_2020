@@ -30,7 +30,7 @@ One of the main purposes for which you will use python is to preprocess your dat
 In order to see the effect of traffic on air quality, we are going to compare the traffic and air quality measurements from April 2019 and April 2020. We will do so for the air quality measuring station alongside the Ring A10 `Amsterdam-Einsteinweg` and the station alongside highway A2 near `Breukelen-A2`. The Netherlands was in lockdown due to the COVID-19 virus in April 2020, we therefore expect that there was less traffic which might have led to better air quality.  It is up to you to find out! 
 
 ## Traffic data
-To get your data go to: https://dexter.ndwcloud.nu/opendata
+To get your data go to: https://dexter.ndw.nu/opendata
 
 For the first excelsheet we want you to fill in `15-04-2019` for `Begindatum` (startdate) and `19-04-2019` for `Einddatum` (Enddate). Select the traffic measuring stations by clicking on `Locatieselectie aanpassen` go to `Klembord` and paste the following in `Selectie uit klembord` (these are 4 stations near `Amsterdam-Einsteinweg` and 4 stations near `Breukelen-A2`):
 
@@ -120,4 +120,4 @@ Please reuse the file you submitted for the previous assignment and change it´s
 - the generated shapefile `air_q_april_1920.csv`
 - `py2_answers.txt`
 
-Submit this zip to Canvas **before the 20th of September 23:59**. 
+Submit this zip to Canvas.
